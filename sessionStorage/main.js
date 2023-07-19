@@ -19,6 +19,6 @@ document.getElementById("retrive").innerHTML = data;
 //create session storage
 sessionStorage.setItem("tutorial", JSON.stringify(tutorial));
 // get data
-var dataTutorial = sessionStorage.getItem("tutorial");
+const dataTutorial = sessionStorage.getItem("tutorial");
 // show data
 document.getElementById("retrive1").innerHTML = dataTutorial;
