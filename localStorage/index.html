@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>localStorage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="to-do-app">
+        <h2>To-do App</h2>
+        <form>
+          <div>
+            <label for="item">New Todo:</label>
+            <input
+              type="text"
+              id="item"
+              name="new-todo"
+              placeholder="Enter item..."
+            />
+          </div>
+          <div>
+            <button id="addButton">
+              Add Item <i class="fa-solid fa-plus"></i>
+            </button>
+            <button id="deleteButton">
+              Clear all <i class="fa-solid fa-ban"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <ul class="to-do-list"></ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
